@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33136C1A242CF2B9007B331D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33136C19242CF2B9007B331D /* AppDelegate.swift */; };
+		33136C1C242CF2B9007B331D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33136C1B242CF2B9007B331D /* SceneDelegate.swift */; };
+		33136C1E242CF2B9007B331D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33136C1D242CF2B9007B331D /* ViewController.swift */; };
+		33136C21242CF2B9007B331D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33136C1F242CF2B9007B331D /* Main.storyboard */; };
+		33136C23242CF2C0007B331D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33136C22242CF2C0007B331D /* Assets.xcassets */; };
+		33136C26242CF2C0007B331D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33136C24242CF2C0007B331D /* LaunchScreen.storyboard */; };
+		33136C31242CF2C0007B331D /* CroesusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33136C30242CF2C0007B331D /* CroesusTests.swift */; };
+		33136C3C242CF2C0007B331D /* CroesusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33136C3B242CF2C0007B331D /* CroesusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33136C2D242CF2C0007B331D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33136C0E242CF2B8007B331D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33136C15242CF2B9007B331D;
+			remoteInfo = Croesus;
+		};
+		33136C38242CF2C0007B331D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33136C0E242CF2B8007B331D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33136C15242CF2B9007B331D;
+			remoteInfo = Croesus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33136C16242CF2B9007B331D /* Croesus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Croesus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33136C19242CF2B9007B331D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33136C1B242CF2B9007B331D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33136C1D242CF2B9007B331D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33136C20242CF2B9007B331D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33136C22242CF2C0007B331D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33136C25242CF2C0007B331D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33136C27242CF2C0007B331D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33136C2C242CF2C0007B331D /* CroesusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CroesusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33136C30242CF2C0007B331D /* CroesusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroesusTests.swift; sourceTree = "<group>"; };
+		33136C32242CF2C0007B331D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33136C37242CF2C0007B331D /* CroesusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CroesusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33136C3B242CF2C0007B331D /* CroesusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroesusUITests.swift; sourceTree = "<group>"; };
+		33136C3D242CF2C0007B331D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33136C13242CF2B9007B331D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33136C29242CF2C0007B331D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33136C34242CF2C0007B331D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33136C0D242CF2B8007B331D = {
+			isa = PBXGroup;
+			children = (
+				33136C18242CF2B9007B331D /* Croesus */,
+				33136C2F242CF2C0007B331D /* CroesusTests */,
+				33136C3A242CF2C0007B331D /* CroesusUITests */,
+				33136C17242CF2B9007B331D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33136C17242CF2B9007B331D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33136C16242CF2B9007B331D /* Croesus.app */,
+				33136C2C242CF2C0007B331D /* CroesusTests.xctest */,
+				33136C37242CF2C0007B331D /* CroesusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33136C18242CF2B9007B331D /* Croesus */ = {
+			isa = PBXGroup;
+			children = (
+				33136C19242CF2B9007B331D /* AppDelegate.swift */,
+				33136C1B242CF2B9007B331D /* SceneDelegate.swift */,
+				33136C1D242CF2B9007B331D /* ViewController.swift */,
+				33136C1F242CF2B9007B331D /* Main.storyboard */,
+				33136C22242CF2C0007B331D /* Assets.xcassets */,
+				33136C24242CF2C0007B331D /* LaunchScreen.storyboard */,
+				33136C27242CF2C0007B331D /* Info.plist */,
+			);
+			path = Croesus;
+			sourceTree = "<group>";
+		};
+		33136C2F242CF2C0007B331D /* CroesusTests */ = {
+			isa = PBXGroup;
+			children = (
+				33136C30242CF2C0007B331D /* CroesusTests.swift */,
+				33136C32242CF2C0007B331D /* Info.plist */,
+			);
+			path = CroesusTests;
+			sourceTree = "<group>";
+		};
+		33136C3A242CF2C0007B331D /* CroesusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33136C3B242CF2C0007B331D /* CroesusUITests.swift */,
+				33136C3D242CF2C0007B331D /* Info.plist */,
+			);
+			path = CroesusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33136C15242CF2B9007B331D /* Croesus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33136C40242CF2C0007B331D /* Build configuration list for PBXNativeTarget "Croesus" */;
+			buildPhases = (
+				33136C12242CF2B9007B331D /* Sources */,
+				33136C13242CF2B9007B331D /* Frameworks */,
+				33136C14242CF2B9007B331D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Croesus;
+			productName = Croesus;
+			productReference = 33136C16242CF2B9007B331D /* Croesus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33136C2B242CF2C0007B331D /* CroesusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33136C43242CF2C0007B331D /* Build configuration list for PBXNativeTarget "CroesusTests" */;
+			buildPhases = (
+				33136C28242CF2C0007B331D /* Sources */,
+				33136C29242CF2C0007B331D /* Frameworks */,
+				33136C2A242CF2C0007B331D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33136C2E242CF2C0007B331D /* PBXTargetDependency */,
+			);
+			name = CroesusTests;
+			productName = CroesusTests;
+			productReference = 33136C2C242CF2C0007B331D /* CroesusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33136C36242CF2C0007B331D /* CroesusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33136C46242CF2C0007B331D /* Build configuration list for PBXNativeTarget "CroesusUITests" */;
+			buildPhases = (
+				33136C33242CF2C0007B331D /* Sources */,
+				33136C34242CF2C0007B331D /* Frameworks */,
+				33136C35242CF2C0007B331D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33136C39242CF2C0007B331D /* PBXTargetDependency */,
+			);
+			name = CroesusUITests;
+			productName = CroesusUITests;
+			productReference = 33136C37242CF2C0007B331D /* CroesusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33136C0E242CF2B8007B331D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Mitch;
+				TargetAttributes = {
+					33136C15242CF2B9007B331D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					33136C2B242CF2C0007B331D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 33136C15242CF2B9007B331D;
+					};
+					33136C36242CF2C0007B331D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 33136C15242CF2B9007B331D;
+					};
+				};
+			};
+			buildConfigurationList = 33136C11242CF2B8007B331D /* Build configuration list for PBXProject "Croesus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33136C0D242CF2B8007B331D;
+			productRefGroup = 33136C17242CF2B9007B331D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33136C15242CF2B9007B331D /* Croesus */,
+				33136C2B242CF2C0007B331D /* CroesusTests */,
+				33136C36242CF2C0007B331D /* CroesusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33136C14242CF2B9007B331D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33136C26242CF2C0007B331D /* LaunchScreen.storyboard in Resources */,
+				33136C23242CF2C0007B331D /* Assets.xcassets in Resources */,
+				33136C21242CF2B9007B331D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33136C2A242CF2C0007B331D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33136C35242CF2C0007B331D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33136C12242CF2B9007B331D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33136C1E242CF2B9007B331D /* ViewController.swift in Sources */,
+				33136C1A242CF2B9007B331D /* AppDelegate.swift in Sources */,
+				33136C1C242CF2B9007B331D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33136C28242CF2C0007B331D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33136C31242CF2C0007B331D /* CroesusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33136C33242CF2C0007B331D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33136C3C242CF2C0007B331D /* CroesusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33136C2E242CF2C0007B331D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33136C15242CF2B9007B331D /* Croesus */;
+			targetProxy = 33136C2D242CF2C0007B331D /* PBXContainerItemProxy */;
+		};
+		33136C39242CF2C0007B331D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33136C15242CF2B9007B331D /* Croesus */;
+			targetProxy = 33136C38242CF2C0007B331D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33136C1F242CF2B9007B331D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33136C20242CF2B9007B331D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33136C24242CF2C0007B331D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33136C25242CF2C0007B331D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33136C3E242CF2C0007B331D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33136C3F242CF2C0007B331D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33136C41242CF2C0007B331D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK6S7J3Q2V;
+				INFOPLIST_FILE = Croesus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mitch.com.Croesus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33136C42242CF2C0007B331D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK6S7J3Q2V;
+				INFOPLIST_FILE = Croesus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mitch.com.Croesus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33136C44242CF2C0007B331D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK6S7J3Q2V;
+				INFOPLIST_FILE = CroesusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mitch.com.CroesusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Croesus.app/Croesus";
+			};
+			name = Debug;
+		};
+		33136C45242CF2C0007B331D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK6S7J3Q2V;
+				INFOPLIST_FILE = CroesusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mitch.com.CroesusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Croesus.app/Croesus";
+			};
+			name = Release;
+		};
+		33136C47242CF2C0007B331D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK6S7J3Q2V;
+				INFOPLIST_FILE = CroesusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mitch.com.CroesusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Croesus;
+			};
+			name = Debug;
+		};
+		33136C48242CF2C0007B331D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK6S7J3Q2V;
+				INFOPLIST_FILE = CroesusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mitch.com.CroesusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Croesus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33136C11242CF2B8007B331D /* Build configuration list for PBXProject "Croesus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33136C3E242CF2C0007B331D /* Debug */,
+				33136C3F242CF2C0007B331D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33136C40242CF2C0007B331D /* Build configuration list for PBXNativeTarget "Croesus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33136C41242CF2C0007B331D /* Debug */,
+				33136C42242CF2C0007B331D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33136C43242CF2C0007B331D /* Build configuration list for PBXNativeTarget "CroesusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33136C44242CF2C0007B331D /* Debug */,
+				33136C45242CF2C0007B331D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33136C46242CF2C0007B331D /* Build configuration list for PBXNativeTarget "CroesusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33136C47242CF2C0007B331D /* Debug */,
+				33136C48242CF2C0007B331D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33136C0E242CF2B8007B331D /* Project object */;
+}
