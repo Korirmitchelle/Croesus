@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		33136C26242CF2C0007B331D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33136C24242CF2C0007B331D /* LaunchScreen.storyboard */; };
 		33136C31242CF2C0007B331D /* CroesusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33136C30242CF2C0007B331D /* CroesusTests.swift */; };
 		33136C3C242CF2C0007B331D /* CroesusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33136C3B242CF2C0007B331D /* CroesusUITests.swift */; };
+		33136C4A242D033F007B331D /* SurveysTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33136C49242D033E007B331D /* SurveysTableViewCell.swift */; };
 		918B4C728260C70B431F422C /* Pods_Croesus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF5E1083A1C910161BC6342 /* Pods_Croesus.framework */; };
 		927BB06581A7E0CEEA2CF77D /* Pods_Croesus_CroesusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1233996EF5FBF8B2C3F23DF /* Pods_Croesus_CroesusUITests.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		33136C37242CF2C0007B331D /* CroesusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CroesusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33136C3B242CF2C0007B331D /* CroesusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroesusUITests.swift; sourceTree = "<group>"; };
 		33136C3D242CF2C0007B331D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33136C49242D033E007B331D /* SurveysTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveysTableViewCell.swift; sourceTree = "<group>"; };
 		385AD61FA348A10D0F7846F9 /* Pods_CroesusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CroesusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4619303A547F71A9819F63B2 /* Pods-CroesusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CroesusTests.release.xcconfig"; path = "Target Support Files/Pods-CroesusTests/Pods-CroesusTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D0A37A2AEC153EA70E311A4 /* Pods-Croesus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Croesus.release.xcconfig"; path = "Target Support Files/Pods-Croesus/Pods-Croesus.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				33136C22242CF2C0007B331D /* Assets.xcassets */,
 				33136C24242CF2C0007B331D /* LaunchScreen.storyboard */,
 				33136C27242CF2C0007B331D /* Info.plist */,
+				33136C49242D033E007B331D /* SurveysTableViewCell.swift */,
 			);
 			path = Croesus;
 			sourceTree = "<group>";
@@ -165,7 +168,6 @@
 				0EF5D190F55CD9C800C3D40C /* Pods-CroesusTests.debug.xcconfig */,
 				4619303A547F71A9819F63B2 /* Pods-CroesusTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -409,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33136C1E242CF2B9007B331D /* ViewController.swift in Sources */,
+				33136C4A242D033F007B331D /* SurveysTableViewCell.swift in Sources */,
 				33136C1A242CF2B9007B331D /* AppDelegate.swift in Sources */,
 				33136C1C242CF2B9007B331D /* SceneDelegate.swift in Sources */,
 			);

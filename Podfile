@@ -7,6 +7,8 @@ target 'Croesus' do
 
   # Pods for Croesus
   pod 'RealmSwift'
+  pod 'Material', '~> 3.1.0'
+
 
 
   target 'CroesusTests' do
