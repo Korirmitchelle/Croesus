@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Croesus" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Croesus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,6 +114,74 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+        <!--Basic Survey View Controller-->
+        <scene sceneID="fpq-Qc-l0y">
+            <objects>
+                <viewController storyboardIdentifier="BasicSurveyViewController" id="GgJ-eI-OZS" customClass="BasicSurveyViewController" customModule="Croesus" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G94-c9-4lp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S7H-gr-aaY" userLabel="statusbar">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+                                <color key="backgroundColor" red="0.47843137250000001" green="0.12941176469999999" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="TJ2-jA-uoT"/>
+                                </constraints>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ii5-HI-1mO">
+                                <rect key="frame" x="0.0" y="30" width="414" height="44"/>
+                                <color key="backgroundColor" red="0.47843137250000001" green="0.12941176469999999" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Toc-g0-kzU"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.47843137250000001" green="0.12941176469999999" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Example Survey" id="U6n-3G-gFB"/>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="MAW-3K-po5">
+                                <rect key="frame" x="0.0" y="74" width="414" height="788"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="OrC-3I-8zm">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OrC-3I-8zm" id="4kC-DP-GeQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="OqI-6w-or3" firstAttribute="trailing" secondItem="S7H-gr-aaY" secondAttribute="trailing" id="6u6-Gl-EyH"/>
+                            <constraint firstItem="MAW-3K-po5" firstAttribute="top" secondItem="ii5-HI-1mO" secondAttribute="bottom" id="GJk-PG-7vQ"/>
+                            <constraint firstItem="S7H-gr-aaY" firstAttribute="top" secondItem="G94-c9-4lp" secondAttribute="top" id="JRV-BY-70v"/>
+                            <constraint firstItem="OqI-6w-or3" firstAttribute="trailing" secondItem="MAW-3K-po5" secondAttribute="trailing" id="Odt-N1-gzA"/>
+                            <constraint firstItem="ii5-HI-1mO" firstAttribute="leading" secondItem="OqI-6w-or3" secondAttribute="leading" id="SaS-DE-xUx"/>
+                            <constraint firstItem="MAW-3K-po5" firstAttribute="leading" secondItem="OqI-6w-or3" secondAttribute="leading" id="dyH-I3-ElK"/>
+                            <constraint firstAttribute="trailing" secondItem="ii5-HI-1mO" secondAttribute="trailing" id="gbb-Rl-VBo"/>
+                            <constraint firstItem="OqI-6w-or3" firstAttribute="bottom" secondItem="MAW-3K-po5" secondAttribute="bottom" id="hbF-ns-1tA"/>
+                            <constraint firstItem="ii5-HI-1mO" firstAttribute="top" secondItem="S7H-gr-aaY" secondAttribute="bottom" id="t14-Cl-sVx"/>
+                            <constraint firstItem="S7H-gr-aaY" firstAttribute="leading" secondItem="OqI-6w-or3" secondAttribute="leading" id="xX4-nY-jPy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OqI-6w-or3"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="MAW-3K-po5" id="iCj-B6-cwi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ns8-H2-sZE" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957" y="138"/>
         </scene>
     </scenes>
     <resources>

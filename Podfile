@@ -8,7 +8,11 @@ target 'Croesus' do
   # Pods for Croesus
   pod 'RealmSwift'
   pod 'Material', '~> 3.1.0'
-
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'SurveyNative'
+  pod 'Firebase/Database'
 
 
   target 'CroesusTests' do
